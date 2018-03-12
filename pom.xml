@@ -88,11 +88,10 @@
                 <version>2.18.1</version>
             </plugin>
         </plugins>
-    </build>
+
 
   <!--> Start ==> Below Newly added code<!-->
-  
-    <build>
+
     <plugins>
       <plugin>
         <groupId>com.browserstack</groupId>
