@@ -10,7 +10,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.util.List;
 
-public class SingleTest extends BrowserStackTestNGTest {
+public class SingleTest_ORIG extends BrowserStackTestNGTest {
 
     @Test
     public void test() throws Exception {
