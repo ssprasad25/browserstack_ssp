@@ -7,7 +7,7 @@
     "build": "testng-browserstack",
     "name": "single_appium_test",
     "browserstack.debug": true,
-    "app": "bs://2e0f643116af1ec7c018aaeb6d8d3c4eb09e5d86"
+    "app": "bs://8a98b3c0be7ad240526d82421a16d4f2277d2203"
   },
 
   "environments": {
