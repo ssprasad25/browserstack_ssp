@@ -14,7 +14,7 @@ public class SingleTest extends BrowserStackTestNGTest {
 
     @Test
     public void test() throws Exception {
-      AndroidElement searchElement = (AndroidElement) new WebDriverWait(driver, 10).until(
+      AndroidElement searchElement = (AndroidElement) new WebDriverWait(driver, 20).until(
           ExpectedConditions.elementToBeClickable(MobileBy.AccessibilityId("DomainTextBox")));
       searchElement.click();
       searchElement.sendKeys("percipio");
